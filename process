@@ -1,0 +1,33 @@
+     sudo yum install java -y :-install java in the terminal
+      sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm 
+      sudo yum install dotnet-sdk-7.0
+      sudo yum install aspnetcore-runtime-7.0 -y
+      sudo yum install dotnet-runtime-7.0
+      sudo yum install aspnetcore-runtime-7.0
+      dotnet --version
+     yum install git -y
+     yum install docker -y
+     git init
+     git clone https://github.com/Nari12n/poojastores.git
+     cd poojastores/
+     vi .dockerignore
+     vi Dockerfile
+    docker build -t pooja .
+     systemctl start docker 
+     docker build -t pooja .
+     vi Dockerfile
+     ll
+     vi PoojaStores.csproj
+     vi Startup.cs 
+     docker build -t pooja .
+     docker ps -a
+     docker rm unruffled_bohr hungry_nightingale
+     dotnet --version
+     vi Dockerfile 
+     rm -rf bin/
+     rm -rf obj/
+     docker build -t store .
+     docker pull mcr.microsoft.com/dotnet/aspnet:7.0
+     vi Dockerfile 
+     docker build -t store .
+     docker run -itd -p "5000:80" store 
